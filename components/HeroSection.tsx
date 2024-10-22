@@ -10,7 +10,7 @@ import { useTypewriter } from '@/hooks/useTypeWritter'
 
 const HeroSection = () => {
   const text=useTypewriter("JavaScript Developer",70)
-  const gdsc=useTypewriter("Available for GDSC Universitas Airlangga",50)
+  const gdsc=useTypewriter("Available for get intouch",50)
   return (
     <section
       id='home'
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
             <div className='w-full max-w-lg mx-auto md:px-0 px-4 space-y-4  '>
               <h1 className='text-center font-bold text-slate-500 lg:text-5xl md:text-2xl text-xl'>Full Stack <span className='text-slate-200'>{text}</span> & Continuous Learner</h1>
-              <p className='text-sm text-slate-500 mt-2 text-center'>I want to join the Google Developer Student Club (GDSC) Airlangga University to seek new challenges, improve technical skills, and expand my network of relationships with professionals and fellow developers.</p>
+              <p className='text-sm text-slate-500 mt-2 text-center'>\"Unlock the full potential of your web presence with cutting-edge technology! I specialize in crafting dynamic, fast, and SEO-optimized websites using **Next.js/React.js** for sleek user interfaces, paired with **Express.js** for scalable, efficient backend solutions. Let’s build the future of web applications together, ensuring your platform is modern, robust, and ready for growth!"</p>
               <div className="w-full md:max-w-lg max-w-56 flex lg:mx-0 mx-auto gap-4 items-center justify-center md:flex-row flex-col">
                 <Link href={'https://drive.google.com/file/d/1pfCCXlC3Fx5h-PK4mBg1GKwDGOHLL7Un/view?usp=sharing '} className='w-full flex items-center justify-center gap-1 px-4 py-2 bg-gray-800 border border-gray-50 text-gray-300 rounded-md hover:bg-gray-900 hover:text-gray-200 transition-all duration-100 font-semibold'>
                   <span className='text-sm'>Reach out</span>
