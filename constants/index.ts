@@ -168,7 +168,7 @@ export const PORTFOLIO_PROJECTS=[
     },
     {
         id:5,
-        title:"E-Commerce App with Admin Panel",
+        title:"E-Commerce App",
         description:"This is a E-Commerce App. It is a simple e-commerce app with cool design. The app is like a simple online store.",
         stack:[
             "Next.js",
